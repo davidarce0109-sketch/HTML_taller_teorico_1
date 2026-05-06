@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Indica que el documento es HTML y que el idioma principal es inglés -->
+
+<head> <!-- Contiene configuraciones internas de la página (no visibles directamente) -->
+
+    <meta charset="UTF-8"> <!-- Permite mostrar correctamente letras como ñ, tildes y símbolos -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página se adapte a celulares y pantallas pequeñas -->
+
+    <title>Fomularios</title> <!-- Texto que aparece en la pestaña del navegador -->
+
+</head> <!-- Fin de la parte de configuración -->
+
+<body> <!-- Aquí va todo lo que el usuario ve en la página -->
+
+    <h1>Formulario</h1> <!-- Título grande visible en la página -->
+
+    <form action="#" method="post">
+    <!-- Crea un formulario action="#" = no envía datos a ninguna página todavía method="post" = envía datos de forma más privada -->
+
+    <label for="nombre">nombre</label>
+    <!-- Texto que indica qué debe escribir el usuario for="nombre" lo conecta con el input -->
+
+    <input type="text" id="nombre" name="nombre" required>
+    <!-- Campo para escribir texto (nombre) id = identificador único name = nombre del dato que se enviará required = obligatorio llenar -->
+
+    <label for="email">Email</label>
+    <!-- Texto que indica que se debe escribir el correo -->
+
+    <input type="text" id="email" name="email" required>
+    <!-- Campo para escribir el correo (funciona, pero sería mejor usar type="email") -->
+
+    <label for="mensaje">Mensaje</label>
+    <!-- Texto que indica que se escriba un mensaje -->
+
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <!-- Cuadro grande para escribir texto largo -->
+
+    <button type="submit">Enviar</button>
+    <!-- Botón que envía el formulario -->
+
+    <input type="color" name="" id="">
+    <!-- Selector de color (abre una paleta de colores) pero no tiene nombre ni id útiles -->
+
+    </form> <!-- Fin del formulario -->
+
+</body> <!-- Fin del contenido visible -->
+
+</html> <!-- Fin del documento HTML -->
